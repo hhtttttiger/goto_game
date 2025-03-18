@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug MyGame",
+            "type": "cppvsdbg",     // 使用 Visual Studio 调试器
+            "request": "launch",
+            "program": "${fileDirname}\\MyGame.exe", // 可执行文件路径
+            "args": [],             // 命令行参数
+            "stopAtEntry": false,   // 是否在入口点停止
+            "cwd": "${fileDirname}", // 工作目录
+            "environment": [],      // 环境变量
+            "externalConsole": false, // 使用外部控制台
+            "preLaunchTask": "C/C++: cl.exe 生成活动文件" // 编译任务名称
+        }
+    ]
+}
